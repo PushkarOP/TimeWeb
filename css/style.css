@@ -16,7 +16,7 @@ body {
      font-family: 'IBM Plex Sans', sans-serif;
 }
 .glow {
-     font-size: 60px;
+     font-size: 30px;
      color: #fff;
      font-weight: bold;
      animation: glow 1s ease-in-out infinite alternate;
