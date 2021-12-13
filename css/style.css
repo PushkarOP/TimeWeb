@@ -5,16 +5,38 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-     background: #000;
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
-     font-family: 'IBM Plex Sans', sans-serif;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+	height: 100vh;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .glow {
      font-size: 30px;
      color: #fff;
