@@ -10,9 +10,14 @@ body {
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	        animation: gradient 15s ease infinite;
-	height: 100vh;
-	font-family: 'IBM Plex Sans', sans-serif;
-	align-items: center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 @-webkit-keyframes gradient {
