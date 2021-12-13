@@ -1,8 +1,4 @@
 function printTime() {
-    var d = new Date();
-    var hours = d.getHours();
-    var mins = d.getMinutes();
-    var secs = d.getSeconds();
-    document.getElementById('Clock').innerHTML = hours+":"+mins+":"+secs;
+    document.getElementById('Clock').innerHTML = Date();
 }
 setInterval(printTime, 1000);
