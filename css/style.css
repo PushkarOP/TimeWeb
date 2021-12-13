@@ -45,4 +45,5 @@ body {
      animation: glow 1s ease-in-out infinite alternate;
      -moz-animation: glow 1s ease-in-out infinite alternate;
      -webkit-animation: glow 1s ease-in-out infinite alternate;
+     align-items: center;
 }
